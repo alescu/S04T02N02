@@ -1,8 +1,8 @@
-package cat.itacademy.s04.t02.n02.S04T02N02.controllers;
+package cat.itacademy.s04.t02.n02.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import cat.itacademy.s04.t02.n02.S04T02N02.model.Fruit;
-import cat.itacademy.s04.t02.n02.S04T02N02.repository.FruitsRepository;
+import cat.itacademy.s04.t02.n02.model.Fruit;
+import cat.itacademy.s04.t02.n02.repository.FruitsRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.HttpStatus;

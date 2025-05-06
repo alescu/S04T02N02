@@ -1,4 +1,4 @@
-package cat.itacademy.s04.t02.n02.S04T02N02.model;
+package cat.itacademy.s04.t02.n02.model;
 
 import jakarta.persistence.*;
 
