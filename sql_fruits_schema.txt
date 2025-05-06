@@ -1,0 +1,10 @@
+	DROP DATABASE IF EXISTS fruits;
+	CREATE DATABASE fruits;
+	USE fruits;
+	
+	CREATE TABLE IF NOT EXISTS fruits (
+		id int(11) auto_increment PRIMARY KEY, 
+		name VARCHAR(50) NOT NULL,
+		kg  decimal (5, 2) NOT NULL DEFAULT '0.0',
+		clue_date_reg timestamp NOT NULL DEFAULT current_timestamp()
+		) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
